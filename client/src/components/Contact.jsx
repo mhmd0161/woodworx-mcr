@@ -70,8 +70,7 @@ const Contact = () => {
                   <div className="contact-item-value">07936 543 448</div>
                 </div>
               </a>
-
-              
+              <a
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
