@@ -6,13 +6,13 @@ const Hero = () => {
   return (
     <section className="hero" id="hero">
       <div className="hero-content fade-up">
-        <div className="hero-badge">Manchester's Finest</div>
+        <div className="hero-badge">Bespoke Staircase Specialists</div>
         <h1>
-          Crafting <span className="accent">Bespoke</span> Joinery That Lasts
+          Crafting <span className="accent">Bespoke</span> Staircases &amp; Balustrades Across the UK
         </h1>
         <p>
-          Staircases, glass balustrades, metal spindles and custom joinery —
-          built with precision and pride across Manchester.
+          Custom staircases, glass balustrades and metal spindle balustrades —
+          designed, built and installed to the highest standard nationwide.
         </p>
         <div className="hero-buttons">
           <a href="tel:07936543448" className="btn-primary">

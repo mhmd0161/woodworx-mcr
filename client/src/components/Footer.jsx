@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>&copy; {new Date().getFullYear()} Wood Worx MCR. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} Wood Worx MCR — Bespoke Staircases &amp; Balustrades | Manchester, UK</p>
     </footer>
   )
 }

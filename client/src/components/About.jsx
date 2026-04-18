@@ -3,7 +3,7 @@ import './About.css'
 
 const stats = [
   { number: '100%', label: 'Bespoke builds' },
-  { number: 'MCR', label: 'Based in Manchester' },
+  { number: 'UK', label: 'Nationwide service' },
   { number: '5★', label: 'Customer rated' },
   { number: 'Free', label: 'Quotes & advice' },
 ]
@@ -16,13 +16,14 @@ const About = () => {
           <div className="fade-up">
             <div className="section-label">About Us</div>
             <h2 className="section-title">
-              Manchester Craftsmanship, Modern Standards
+              Manchester Built, UK Wide
             </h2>
             <p className="section-desc">
-              Wood Worx MCR is a Manchester-based joinery company specialising in
-              high-quality bespoke staircases and balustrades. We combine
-              traditional woodworking skills with modern design to deliver results
-              that stand the test of time.
+              Wood Worx MCR is a specialist joinery company delivering
+              high-quality bespoke staircases, glass balustrades and metal spindle
+              balustrades to homes and businesses across the United Kingdom. Based
+              in Manchester, we combine traditional craftsmanship with modern
+              design to create stunning results that stand the test of time.
             </p>
             <div className="about-stats">
               {stats.map((stat, index) => (
@@ -46,14 +47,14 @@ const About = () => {
               <div className="about-block-icon">◇</div>
               <div className="about-block-title">Made to Measure</div>
               <div className="about-block-text">
-                Nothing off the shelf. Everything custom.
+                Nothing off the shelf. Everything custom built to your exact specifications.
               </div>
             </div>
             <div className="about-block">
               <div className="about-block-icon">★</div>
-              <div className="about-block-title">Trusted Locally</div>
+              <div className="about-block-title">Trusted Nationwide</div>
               <div className="about-block-text">
-                Serving homes across Greater Manchester.
+                Serving homes and businesses across the UK.
               </div>
             </div>
           </div>

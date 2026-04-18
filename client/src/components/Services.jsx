@@ -5,23 +5,22 @@ import './Services.css'
 const services = [
   {
     icon: <Layers size={24} />,
-    title: 'Staircases',
+    title: 'Bespoke Staircases',
     description:
-      'Custom-designed staircases that become the centrepiece of your home. From modern floating designs to classic timber builds.',
+      'Custom-designed staircases that become the centrepiece of your home. From modern floating staircase designs to classic timber builds — installed anywhere in the UK.',
   },
   {
     icon: <Grid3X3 size={24} />,
     title: 'Glass Balustrades',
     description:
-      'Sleek, frameless glass balustrades that let light flow through your space while keeping everything safe and stylish.',
+      'Sleek, frameless glass balustrades that let light flow through your space while keeping everything safe and stylish. Professional glass balustrade installation nationwide.',
   },
   {
     icon: <Columns3 size={24} />,
     title: 'Metal Spindle Balustrades',
     description:
-      'Contemporary metal spindle systems that add character and a modern industrial edge to any staircase or landing.',
+      'Contemporary metal spindle systems that add character and a modern industrial edge to any staircase or landing. Precision-crafted and fitted to perfection.',
   },
-
 ]
 
 const Services = () => {
@@ -34,8 +33,9 @@ const Services = () => {
             Built to Your<br />Exact Spec
           </h2>
           <p className="section-desc">
-            Every project is designed and crafted to fit your space perfectly. No
-            off-the-shelf solutions — just quality craftsmanship tailored to you.
+            Every staircase and balustrade is designed and crafted to fit your
+            space perfectly. No off-the-shelf solutions — just quality
+            craftsmanship delivered across the UK.
           </p>
         </div>
         <div className="services-grid">
