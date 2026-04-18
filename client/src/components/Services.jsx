@@ -25,7 +25,7 @@ const services = [
     icon: <Box size={24} />,
     title: 'Bespoke Joinery',
     description:
-      'From fitted wardrobes to custom shelving and architectural details — precision-made joinery built exactly to your brief.',
+      'Custom shelving, architectural details and bespoke timber work — precision-made joinery crafted exactly to your brief.',
   },
 ]
 
