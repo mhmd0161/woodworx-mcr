@@ -1,5 +1,5 @@
 import React from 'react'
-import { Layers, Grid3X3, Columns3, Box } from 'lucide-react'
+import { Layers, Grid3X3, Columns3 } from 'lucide-react'
 import './Services.css'
 
 const services = [
@@ -21,12 +21,7 @@ const services = [
     description:
       'Contemporary metal spindle systems that add character and a modern industrial edge to any staircase or landing.',
   },
-  {
-    icon: <Box size={24} />,
-    title: 'Bespoke Joinery',
-    description:
-      'Custom shelving, architectural details and bespoke timber work — precision-made joinery crafted exactly to your brief.',
-  },
+
 ]
 
 const Services = () => {
